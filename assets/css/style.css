@@ -1,0 +1,82 @@
+li {
+    display: inline;
+    padding-right: 3%;
+}
+
+header,
+footer {
+    height: 80px;
+    width: 100%;
+    line-height: 60px;
+    background-color: var(--tertiary);
+}
+
+header {
+    /* position: fixed; */
+    border-bottom: 10px solid var(--dark);
+}
+
+footer {
+    /* position: absolute; */
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid var(--dark);
+}
+
+main a {
+text-align: center;
+}
+
+figure {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 5% 5% 10% 5%;
+    border-top: 3px solid var(--dark);
+    background-color: var(--dark);
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px;
+    border: 10px solid var(--tertiary);
+    border-radius: 40px;
+}
+
+label {
+    display: inline-block;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 250px;
+    border: 1px solid var(--tertiary);
+}
+
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+button {
+    height: 30px;
+    width: 120px;
+    border: 1px solid var(--tertiary);
+}
+
+/* CLASS SELECTORS */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}

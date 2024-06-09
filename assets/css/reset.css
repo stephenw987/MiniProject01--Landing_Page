@@ -1,0 +1,28 @@
+/* UNIVERSAL SELECTOR */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: rgb(27, 39, 255);
+    --secondary: rgb(255, 48, 255);
+    --tertiary: rgb(0, 255, 200);
+    --dark: rgb(218, 118, 118);
+    --light: rgb(255, 255, 255);
+}
+
+/* ELEMENT SELECTOR */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--primary);
+    background-color: var(--light);
+    line-height: 1.5;
+    font-size:large;
+}
+
+h1, 
+h2 {
+    margin: 5%;
+}
